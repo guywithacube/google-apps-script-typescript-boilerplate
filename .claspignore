@@ -1,0 +1,6 @@
+# Ignore all files
+**/**
+
+# Track these files:
+!dist/**
+!appsscript.json

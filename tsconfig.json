@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "types": [
+            "node",
+            "@types/google-apps-script"
+        ],
+        "target": "es5"
+    }
+}
