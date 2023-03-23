@@ -2,7 +2,7 @@
 
 Boilerplate template for developing a [Google Apps Script](https://script.google.com/) project that supports [TypeScript](https://www.typescriptlang.org/).
 
-This README is written for [*NIX-like](https://en.wikipedia.org/wiki/Unix) environments; however, it is likely applicable for other platforms.
+This README is written for [*NIX-like](https://en.wikipedia.org/wiki/Unix) environments; however, it is likely applicable to other platforms.
 
 ## Prerequisites
 
@@ -12,7 +12,7 @@ This README is written for [*NIX-like](https://en.wikipedia.org/wiki/Unix) envir
 
 ### [npm](https://www.npmjs.com/)
 
-`npm` is distributed with Node.js. For futher readings, see [this `npm` page](https://www.npmjs.com/get-npm).
+`npm` is distributed with Node.js. For further readings, see [this `npm` page](https://www.npmjs.com/get-npm).
 
 ### [clasp](https://github.com/google/clasp)
 
@@ -79,4 +79,4 @@ The Apps Script project must use a standard Google Cloud Platform Project. For m
 
 The standard GCP Project must also have an [OAuth 2.0](https://oauth.net/2/) client ID. For more information, see the [GCP help article on Setting up OAuth 2.0](https://support.google.com/cloud/answer/6158849).
 
-Assuming both a standard GCP project and OAuth 2.0 client ID have been configured, [this document](https://github.com/google/clasp/blob/master/docs/run.md) can be followed to configure `clasp run`.
+Assuming both a standard GCP project and OAuth 2.0 client ID has been configured, [this document](https://github.com/google/clasp/blob/master/docs/run.md) can be followed to configure `clasp run`.
