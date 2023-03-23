@@ -13,14 +13,17 @@ This README is written for [*NIX-like](https://en.wikipedia.org/wiki/Unix) envir
 ### [npm](https://www.npmjs.com/)
 
 `npm` is distributed with Node.js. For futher readings, see [this `npm` page](https://www.npmjs.com/get-npm).
+
 ### [clasp](https://github.com/google/clasp)
 
-Install `clasp` by running: 
+Install `clasp` by running:
+
 ``` sh
 npm install --global @google/clasp
 ```
 
 Authenticate `clasp` with your Google Account by running:
+
 ``` sh
 clasp login
 ```
@@ -29,28 +32,41 @@ clasp login
 
 1. Clone this repository
 2. Install dependencies
-``` sh
-npm install
-```
+
+    ``` sh
+    npm install
+    ```
+
 3. Create a new Apps Script project
-``` sh
-clasp create --type standalone --title google-apps-script-typescript-boilerplate
-```
+
+    ``` sh
+    clasp create --type standalone --title google-apps-script-typescript-boilerplate
+    ```
+
 4. Compile all source files
-All TypeScript and JavaScript in `src/` will be `webpack`ed into `dist/`
-This repository comes with a `helloWorld` function by default
-``` sh
-npm run build
-```
+
+    All TypeScript and JavaScript in `src/` will be `webpack`ed into `dist/`
+
+    This repository comes with a `helloWorld` function by default
+
+    ``` sh
+    npm run build
+    ```
+
 5. Push to Apps Script
-Push all tracked files (see `.claspignore`) to Apps Script
-``` 
-clasp push
-```
+
+    Push all tracked files (see `.claspignore`) to Apps Script
+
+    ``` sh
+    clasp push
+    ```
+
 6. Verify the code was pushed in the Apps Script editor
-``` sh
-clasp open
-```
+
+    ``` sh
+    clasp open
+    ```
+
 7. Run the `helloWorld` function
 
 ## Using `clasp run`
